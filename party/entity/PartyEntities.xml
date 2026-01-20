@@ -7,6 +7,10 @@
         <field name="partyId" type="id" is-pk="true"/>
         <field name="partyTypeEnumId" type="id"/>
 <field name="createdDate" type="date-time" />
+        <relationship type="one" title="PartyType" related="Enumeration">
+            <key-map field-name="partyTypeEnumId"/>
+        </relationship>
+
     </entity>
 
 
@@ -36,6 +40,9 @@
         <field name="contactMechTypeId" type="id"/>
         <field name="infoString" type="text-medium"/>
         <field name="createdDate" type="date-time" />
+        <relationship type="one" title="ContactMechType" related="Enumeration">
+            <key-map field-name="contactMechTypeEnumId"/>
+        </relationship>
     </entity>
 
 
