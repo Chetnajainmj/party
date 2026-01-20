@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-facade-xml type="seed">
+
+
+    <Party partyId="P1001" partyTypeEnumId="PERSON"/>
+    <Party partyId="G1001" partyTypeEnumId="PARTY_GROUP"/>
+
+
+    <Person partyId="P1001"
+            firstName="Chetna"
+            lastName="Jain"
+            dateOfBirth="2002-01-01"/>
+
+
+    <PartyGroup partyId="G1001"
+                groupName="Saastech Academy"
+                description="Training Institute"/>
+
+
+    <ContactMech contactMechId="CM1001"
+                 contactMechTypeId="EMAIL"
+                 infoString="chetna@example.com"/>
+
+    <ContactMech contactMechId="CM1002"
+                 contactMechTypeId="TELECOM_NUMBER"
+                 infoString="+91-9999999999"/>
+
+
+    <PartyContactMech partyId="P1001"
+                      contactMechId="CM1001"
+                      fromDate="2024-01-01T00:00:00"/>
+
+    <PartyContactMech partyId="P1001"
+                      contactMechId="CM1002"
+                      fromDate="2024-01-01T00:00:00"/>
+
+</entity-facade-xml>
