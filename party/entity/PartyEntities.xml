@@ -37,7 +37,7 @@
 
     <entity entity-name="ContactMech" package="party.entity">
         <field name="contactMechId" type="id" is-pk="true"/>
-        <field name="contactMechTypeId" type="id"/>
+        <field name="contactMechTypeEnumId" type="id"/>
         <field name="infoString" type="text-medium"/>
         <field name="createdDate" type="date-time" />
         <relationship type="one" title="ContactMechType" related="Enumeration">

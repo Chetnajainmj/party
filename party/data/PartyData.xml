@@ -2,35 +2,37 @@
 <entity-facade-xml type="seed">
 
 
-    <Party partyId="P1001" partyTypeEnumId="PERSON"/>
+    <party.entity.Party partyId="P1001" partyTypeEnumId="PERSON"/>
     <Party partyId="G1001" partyTypeEnumId="PARTY_GROUP"/>
 
 
-    <Person partyId="P1001"
+    <party.entity.Person partyId="P1001"
             firstName="Chetna"
             lastName="Jain"
             dateOfBirth="2002-01-01"/>
 
 
-    <PartyGroup partyId="G1001"
+    <party.entity.PartyGroup partyId="G1001"
                 groupName="Saastech Academy"
                 description="Training Institute"/>
 
 
-    <ContactMech contactMechId="CM1001"
+    <party.entity.ContactMech contactMechId="CM1001"
                  contactMechTypeId="EMAIL"
-                 infoString="chetna@example.com"/>
+                 infoString="chetna@example.com"
+                 createdDate="2026-1-16"/>
 
-    <ContactMech contactMechId="CM1002"
+    <party.entity.ContactMech contactMechId="CM1002"
                  contactMechTypeId="TELECOM_NUMBER"
-                 infoString="+91-9999999999"/>
+                 infoString="+91-9999999999"
+                 createdDate="2026-1-16"/>
 
 
-    <PartyContactMech partyId="P1001"
+    <party.entity.PartyContactMech partyId="P1001"
                       contactMechId="CM1001"
                       fromDate="2024-01-01T00:00:00"/>
 
-    <PartyContactMech partyId="P1001"
+    <party.entity.PartyContactMech partyId="P1001"
                       contactMechId="CM1002"
                       fromDate="2024-01-01T00:00:00"/>
 
