@@ -73,3 +73,29 @@ Links Party and ContactMech (many-to-many).
 - EMAIL
 - TELECOM_NUMBER
 - POSTAL_ADDRESS
+
+## Custom screen with title and show list/table of all party records and mount screen
+1 Define new screen
+
+2 Mount screen
+
+3 Test screen in moqui
+
+## Custom form for create party entity
+1 Add create form party entity
+
+2 Test forms in moqui
+
+## Custom Person creation service
+
+1 Define new service
+
+2 Implement service logic
+
+3 Expose service as REST API
+
+4 Test service in moqui UI
+
+5 Test REST API
+
+
