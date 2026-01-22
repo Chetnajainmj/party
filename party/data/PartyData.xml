@@ -3,7 +3,7 @@
 
 
     <party.entity.Party partyId="P1001" partyTypeEnumId="PERSON"/>
-    <Party partyId="G1001" partyTypeEnumId="PARTY_GROUP"/>
+    <party.entity.Party partyId="G1001" partyTypeEnumId="PARTY_GROUP"/>
 
 
     <party.entity.Person partyId="P1001"
